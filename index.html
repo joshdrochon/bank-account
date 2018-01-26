@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+    <script src="scripts/jquery-3.2.1.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <title>Empty Your Pockets Bank</title>
+
+  </head>
+  <body>
+
+    <div class="container-m">
+      <h1>Empty Your Pockets</h1>
+      <h2>America's most trusted banks</h2>
+
+
+      <div class="row">
+
+        <div id="form1" class="col-md-6">
+          <h2>Register</h2>
+          <form id="register" method="post">
+            <label>Name:</label><input id="new-name" type="text" value="">
+            <label>Email:</label><input id="email" type="email" value="">
+            <label>Phone:</label><input id="phone" type="tel" value="">
+            <button class="btn btn-success" type="submit" name="button">Register</button>
+          </form>
+        </div>
+
+        <div id="form2" class="col-md-6">
+          <h2>Deposit or Withdraw</h2>
+          <form id="deposit" method="post">
+            <label>Initial Deposit Amount:</label><input id="init-deposit" type="number" value="">
+            <label>Deposit Amount:</label><input id="deposit-amount" type="number" value="">
+            <label>Withdrawal Amount:</label> <input id="withdraw-amount" type="number" value="">
+            <button class="btn btn-success" type="submit" name="button">Deposit</button>
+          </form>
+        </div>
+
+      </div><!--end row-->
+
+      <div id="summary">
+        <p>Current Balance:</p>
+      </div>
+
+    </div><!--end container-->
+  </body>
+</html>
